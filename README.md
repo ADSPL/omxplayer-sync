@@ -6,6 +6,7 @@ instances over the network in a master/slave fashion.
 
 https://vimeo.com/137133716
 
+By default player will start in 960x720 windows, to change this to your desire xy, edit line 162 in code.
 
 Usage
 -----
