@@ -159,7 +159,7 @@ class OMXPlayerSync():
         if not filter(lambda x: os.path.isfile(x), self.playlist):
             print("ERROR: none of the supplied filenames are found")
             sys.exit(1)
-
+        self.omxplayer_options.append('--win 0,0,720,960')
         self.omxplayer_options.append("-o %s" % self.options.adev)
         self.omxplayer_options.append('--no-keys')
 
