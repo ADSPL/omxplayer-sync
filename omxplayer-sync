@@ -82,7 +82,7 @@ class PlayerInterface():
             return False
 
     def initialize(self):
-        sleep(2) # wait for omxplayer to appear on dbus
+        sleep(10) # wait for omxplayer to appear on dbus
         return self._get_dbus_interface()
 
     def playPause(self):
