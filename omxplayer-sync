@@ -30,9 +30,9 @@ except ImportError:
     import os
     DEVNULL = open(os.devnull, 'wb')
 
-SYNC_TOLERANCE = .05
+SYNC_TOLERANCE = .1
 SYNC_GRACE_TIME = 5
-SYNC_JUMP_AHEAD = 3
+SYNC_JUMP_AHEAD = .5
 
 OMXPLAYER = 'omxplayer'
 OMXPLAYER_DBUS_ADDR='/tmp/omxplayerdbus.%s' % getpass.getuser()
